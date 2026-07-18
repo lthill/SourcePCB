@@ -1,0 +1,114 @@
+(version 1)
+(rule "Track width, outer layer"
+	(layer outer)
+	(condition "A.Type == 'Track'")
+	(constraint track_width (min 0.15mm))
+)
+(rule "Track clearance, outer layer"
+	(layer outer)
+	(condition "A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.15mm))
+)
+(rule "Track width, inner layer"
+	(layer inner)
+	(condition "A.Type == 'Track'")
+	(constraint track_width (min 0.1mm))
+)
+(rule "Track clearance, inner layer"
+	(layer inner)
+	(condition "A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.1mm))
+)
+(rule "Clearance: pad/via to pad/via, different nets"
+	(layer outer)
+	(condition "A.isPlated() && B.isPlated() && A.Net != B.Net")
+	(constraint clearance (min 0.15mm))
+)
+(rule "Clearance: track to pad, different nets"
+	(condition "A.Type == 'Pad' && B.Type == 'Track' && A.Net != B.Net")
+	(constraint clearance (min 0.2mm))
+)
+(rule "Annular ring width (via and PTH)"
+	# IPC-2221 Class B minimum: 0.13mm; 0.15mm recommended for drill breakout margin
+	(layer outer)
+	(condition "A.isPlated()")
+	(constraint annular_width (min 0.15mm))
+)
+(rule "Hole-to-hole clearance (perimeter), different nets"
+	(layer outer)
+	(condition "A.Net != B.Net")
+	(constraint hole_to_hole (min 0.5mm))
+)
+(rule "Hole-to-hole clearance (perimeter), same net"
+	(layer outer)
+	(condition "A.Net == B.Net")
+	(constraint hole_to_hole (min 0.25mm))
+)
+(rule "Clearance: track to NPTH hole perimeter"
+	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'Track' && A.Net != B.Net")
+	(constraint hole_clearance (min 0.25mm))
+)
+(rule "Clearance: track to PTH hole perimeter"
+	(condition "A.isPlated() && B.Type == 'Track' && A.Net != B.Net")
+	(constraint hole_clearance (min 0.33mm))
+)
+(rule "Track to board edge clearance"
+	(condition "A.Type == 'Track'")
+	(constraint edge_clearance (min 0.3mm))
+)
+(rule "Silkscreen text minimum size"
+	# Thickness 0.12mm matches KiCad library default and is fab-safe for JLCPCB,
+	# PCBWay, and most shops (0.1mm floor). Raise to 0.15mm only for OSH Park.
+	# Height 0.8mm is standard KiCad library value for footprint references.
+	(constraint text_height (min 0.8mm))
+	(constraint text_thickness (min 0.12mm))
+	(condition "A.Type == '*Text' && (A.Layer == 'F.Silkscreen' || A.Layer == 'B.Silkscreen')")
+)
+(rule "Silkscreen to pad clearance"
+	(layer outer)
+	(condition "A.Type == 'Pad' && (B.Layer == 'F.Silkscreen' || B.Layer == 'B.Silkscreen')")
+	(constraint silk_clearance (min 0.15mm))
+)
+(rule "Analog signal keep-out from switching regulator ICs"
+	# Physical clearance uses the footprint courtyard, not just copper — keeps
+	# sensitive analog nodes away from the entire body of any switching IC.
+	(condition "A.NetClass == 'Analog' && B.hasComponentClass('PowerIC')")
+	(constraint physical_clearance (min 2mm))
+)
+(rule "Analog signal minimum clearance from Motor/Heater tracks"
+	# dV/dt on motor and heater outputs couples into nearby analog traces —
+	# widen clearance beyond the netclass default.
+	(condition "A.NetClass == 'Analog' && (B.NetClass == 'Motor' || B.NetClass == 'Heater')")
+	(constraint clearance (min 0.4mm))
+)
+(rule "Analog return via keep-out from digital return via"
+	# Encourages a dedicated analog return via near the op-amp/ADC rather than
+	# sharing the digital return path, which corrupts the reference.
+	(condition "A.Type == 'Via' && A.NetClass == 'Analog' && B.Type == 'Via' && B.NetClass != 'Analog'")
+	(constraint clearance (min 1mm))
+)
+(rule "GND via minimum spacing (stitching hygiene)"
+	# Prevents accidental hole-to-hole crowding when placing dense GND via
+	# fields — 0.5mm hole-edge distance = 0.8mm center-to-center at 0.3mm drill.
+	# Well below normal 2-5mm stitching grids, catches only true clustering.
+	(condition "A.Type == 'Via' && A.Net == 'GND' && B.Type == 'Via' && B.Net == 'GND'")
+	(constraint hole_to_hole (min 0.5mm))
+)
+(rule "Line class creepage — 250V AC baseline"
+	# IEC 60950 / UL 60950 minimum creepage for 250V mains, Pollution Degree 2.
+	# Raise to 3.2mm for Pollution Degree 3 (industrial without enclosure).
+	(condition "A.NetClass == 'Line' && B.NetClass != 'Line' && A.Net != B.Net")
+	(constraint creepage (min 2mm))
+)
+(rule "+48V to other-net clearance — 60V isolation margin"
+	# UL 60950 baseline for ~60V DC in Pollution Degree 2. Above the 0.15mm
+	# default netclass clearance so 48V never brushes against 3.3V logic.
+	(condition "A.NetClass == '+48V' && B.NetClass != '+48V' && A.Net != B.Net")
+	(constraint clearance (min 0.5mm))
+)
+(rule "Line/+48V copper to board edge"
+	# Stricter than the 0.3mm default. Prevents depanel burrs from bridging
+	# high-voltage copper to another trace across the routed edge.
+	(condition "A.NetClass == 'Line' || A.NetClass == '+48V'")
+	(constraint edge_clearance (min 0.5mm))
+)

@@ -1,0 +1,35 @@
+# KiCad backup and temporary files
+*-bak
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.tmp
+
+# KiCAD working files
+.history/
+*.zip
+_restore_backup*/
+
+# Log files
+*.log
+*log.txt
+
+# Lock files
+*.lck
+*.~lock.*#
+
+# KiCad ERC and DRC reports
+*.erc
+*.drc
+*.rpt
+
+# Component cache and local libraries (if not shared)
+*-cache.lib
+*-rescue.lib
+
+# Output manufacturing files (optional: comment out if you want to track them)
+gerber/
+production/
