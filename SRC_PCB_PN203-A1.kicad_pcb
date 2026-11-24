@@ -4495,7 +4495,7 @@
 			(uuid "66bb6efa-4584-4bec-b493-2312b12cf2c0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.step"
+		(model "${KIPRJMOD}/3DModels/Keystone_5010.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19207,7 +19207,7 @@
 			(uuid "3b920f26-1a6d-40fe-82c6-99708a42c3df")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.step"
+		(model "${KIPRJMOD}/3DModels/Keystone_5010.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24582,7 +24582,7 @@
 			(uuid "56e69c43-275a-4961-bdd7-8795e1b62ed6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.step"
+		(model "${KIPRJMOD}/3DModels/Keystone_5010.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33442,7 +33442,7 @@
 			(uuid "67506df8-bbb2-42d9-bbc0-dc9a8e96d48e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.step"
+		(model "${KIPRJMOD}/3DModels/Keystone_5010.stp"
 			(offset
 				(xyz 0 0 0)
 			)
