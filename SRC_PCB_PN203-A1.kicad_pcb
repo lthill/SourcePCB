@@ -166,7 +166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/ds16008.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -757,7 +757,7 @@
 			)
 		)
 	)
-	(footprint "Samacsys:MPXH6115AC6U"
+	(footprint "User:MPXH6115AC6U"
 		(layer "F.Cu")
 		(uuid "1b0a2476-ba4c-4beb-ab2e-d3b657aacfe2")
 		(at 62.008314 75.6512 90)
@@ -1275,7 +1275,7 @@
 			)
 		)
 	)
-	(footprint "Samacsys:SOT96P237X111-3N"
+	(footprint "User:SOT96P237X111-3N"
 		(layer "F.Cu")
 		(uuid "220d9f5d-931f-4eaa-b9d3-b86ab55584ff")
 		(at 114.047414 56.6418)
@@ -1914,7 +1914,7 @@
 			(uuid "438d46bc-cbca-4e20-8126-7e327ddacbbe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MMBT4401LT1G.stp"
+		(model "${KIPRJMOD}/3DModels/MMBT4401LT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1956,7 +1956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/40001907A.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/40001907A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2733,7 +2733,7 @@
 			(uuid "c9fd32f1-7d56-43b4-8b93-de5f1bfda522")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/SamacSys_Parts.3dshapes/ATMEGA328PB-AU.stp"
+		(model "${KIPRJMOD}/3DModels/ATMEGA328PB-AU.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3274,7 +3274,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Samacsys:SOT96P237X111-3N"
+	(footprint "User:SOT96P237X111-3N"
 		(layer "F.Cu")
 		(uuid "2fa88fee-05ec-4b9a-bb1c-1e2273fde8cf")
 		(at 106.803714 62.4645)
@@ -3626,7 +3626,7 @@
 			(uuid "964ce4c6-7c05-4978-95f6-553275b13b10")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MMBT4401LT1G.stp"
+		(model "${KIPRJMOD}/3DModels/MMBT4401LT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3668,7 +3668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4537,7 +4537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5613,7 +5613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/ds16008.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6234,7 +6234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6849,7 +6849,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7647,7 +7647,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8091,7 +8091,7 @@
 			)
 		)
 	)
-	(footprint "Samacsys:SOT96P237X111-3N"
+	(footprint "User:SOT96P237X111-3N"
 		(layer "F.Cu")
 		(uuid "41aa486b-2206-4098-8279-c77b9c742168")
 		(at 79.635914 62.4432)
@@ -8469,7 +8469,7 @@
 			(uuid "b7245574-7f1d-4b87-ab24-e39c0b6c5f4c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MMBT4401LT1G.stp"
+		(model "${KIPRJMOD}/3DModels/MMBT4401LT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8511,7 +8511,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/di620600s1.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/di620600s1.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8970,7 +8970,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA:RELAYS-TH_AQG22205"
+	(footprint "User:RELAYS-TH_AQG22205"
 		(layer "F.Cu")
 		(uuid "4ce739b2-9d91-4f8a-95fb-48e8a93193d4")
 		(at 82.185314 77.4745 -90)
@@ -9537,7 +9537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10628,7 +10628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11115,7 +11115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C492420.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C492420.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11477,7 +11477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C727084.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C727084.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12011,7 +12011,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA:RELAY-TH_HF32F-X-HXXXX-XXX"
+	(footprint "User:RELAY-TH_HF32F-X-HXXXX-XXX"
 		(layer "F.Cu")
 		(uuid "5b449051-4ff3-449a-9c81-d4a8fff4bf88")
 		(at 113.353714 74.4645 -90)
@@ -12039,7 +12039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C329304.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C329304.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13734,7 +13734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C107092.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C107092.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14208,7 +14208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15488,7 +15488,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA:WIRELM-SMD_RN4020-V-RM"
+	(footprint "User:WIRELM-SMD_RN4020-V-RM"
 		(layer "F.Cu")
 		(uuid "8778810c-60f8-40e3-a1d0-18f18574730a")
 		(at 66.304714 51.7325 90)
@@ -15516,7 +15516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/DataSheets/50002279E.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/50002279E.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15986,7 +15986,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C492420.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C492420.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17708,7 +17708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18152,7 +18152,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA:RELAY-TH_HF32F-X-HXXXX-XXX"
+	(footprint "User:RELAY-TH_HF32F-X-HXXXX-XXX"
 		(layer "F.Cu")
 		(uuid "8ea7c457-e9e1-48c4-92c6-e2344738bdb6")
 		(at 72.447714 74.4645 -90)
@@ -18180,7 +18180,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C329304.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C329304.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19249,7 +19249,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20262,7 +20262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21338,7 +21338,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/ds16008.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21959,7 +21959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22555,7 +22555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23064,7 +23064,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA:FUSE-SMD_L10.1-W3.1"
+	(footprint "User:FUSE-SMD_L10.1-W3.1"
 		(layer "F.Cu")
 		(uuid "a8cbae53-e6f4-4f92-a15a-fd69a5c49f0e")
 		(at 125.222 77.851 90)
@@ -23599,7 +23599,7 @@
 			(uuid "02405a9d-4af9-43cf-abbe-d55a7937ee43")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/FUSE-SMD_L10.1-W3.1-H3.1.step"
+		(model "${KIPRJMOD}/3DModels/FUSE-SMD_L10.1-W3.1-H3.1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24625,7 +24625,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C727084.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C727084.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25633,7 +25633,7 @@
 			)
 		)
 	)
-	(footprint "Samacsys:SOT96P237X111-3N"
+	(footprint "User:SOT96P237X111-3N"
 		(layer "F.Cu")
 		(uuid "b997a9d4-0d7c-48e6-9c25-eb6b83ffaa88")
 		(at 60.7252 62.484)
@@ -26011,7 +26011,7 @@
 			(uuid "07c3440b-3034-4000-86d2-6724a255b305")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MMBT4401LT1G.stp"
+		(model "${KIPRJMOD}/3DModels/MMBT4401LT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26053,7 +26053,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicResonatorCrystalUnit/SPEC_CSTNE12M0G550000R0_PDF_CERAMICRESONATORCRYSTALUNIT"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/SPEC_CSTNE12M0G550000R0_PDF_CERAMICRESONATORCRYSTALUNIT.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26502,7 +26502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27727,7 +27727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28253,7 +28253,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -28792,7 +28792,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29314,7 +29314,7 @@
 			)
 		)
 	)
-	(footprint "Samacsys:SOT96P237X111-3N"
+	(footprint "User:SOT96P237X111-3N"
 		(layer "F.Cu")
 		(uuid "d0f39f2f-fd74-4025-b92b-2bc6380b8a09")
 		(at 89.1478 62.4586)
@@ -29692,7 +29692,7 @@
 			(uuid "f1c4fbbc-91e7-409e-b349-dbf0219b1e4f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MMBT4401LT1G.stp"
+		(model "${KIPRJMOD}/3DModels/MMBT4401LT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30209,7 +30209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30684,7 +30684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30942,7 +30942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31942,7 +31942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -32386,7 +32386,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA:RELAY-TH_HF32F-X-HXXXX-XXX"
+	(footprint "User:RELAY-TH_HF32F-X-HXXXX-XXX"
 		(layer "F.Cu")
 		(uuid "ea7cc915-7dfe-4d0d-9a5d-41f96cb8fdc3")
 		(at 98.153714 74.4645 -90)
@@ -32415,7 +32415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C329304.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C329304.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)

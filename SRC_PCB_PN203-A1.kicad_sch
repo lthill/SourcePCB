@@ -13,7 +13,7 @@
 		(comment 2 "PRESSURE SENSOR XGZP6858A00100KPAL033")
 	)
 	(lib_symbols
-		(symbol "3rdParty:AQG22205"
+		(symbol "User:AQG22205"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -39,7 +39,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:RELAYS-TH_AQG22205"
+			(property "Footprint" "User:RELAYS-TH_AQG22205"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -50,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Triac-Optocouplers_PANASONIC_AQG22205_AQG22205-5VDC_C124000.html"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C124000.pdf"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1150,7 +1150,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/ds16008.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1294,7 +1294,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:04611.25ER"
+		(symbol "User:04611.25ER"
 			(pin_names
 				(hide yes)
 			)
@@ -1323,7 +1323,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:FUSE-SMD_L10.1-W3.1"
+			(property "Footprint" "User:FUSE-SMD_L10.1-W3.1"
 				(at 5.08 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1672,7 +1672,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:AP2120N-3.3TRG1"
+		(symbol "User:AP2120N-3.3TRG1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1701,7 +1701,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(property "Footprint" "User:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1712,7 +1712,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_DIODES_AP2120N-3-3TRG1_AP2120N-3-3TRG1_C156330.html"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C156330.pdf"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1858,7 +1858,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:CSTNE12M0G550000R0"
+		(symbol "User:CSTNE12M0G550000R0"
 			(pin_names
 				(hide yes)
 			)
@@ -1887,7 +1887,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:CRYSTAL-SMD_3P-L3.2-W1.3-P1.20-L-1"
+			(property "Footprint" "User:CRYSTAL-SMD_3P-L3.2-W1.3-P1.20-L-1"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1898,7 +1898,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_Murata-Electronics-CSTNE12M0G550000R0_C341520.html"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C341520.pdf"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2106,7 +2106,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:HF32F_005-HS3"
+		(symbol "User:HF32F_005-HS3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2132,7 +2132,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:RELAY-TH_HF32F-X-HXXXX-XXX"
+			(property "Footprint" "User:RELAY-TH_HF32F-X-HXXXX-XXX"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2143,7 +2143,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_Xiamen-Hongfa-Electroacoustic-HF32F-005-HS3_C329304.html"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C329304.pdf"
 				(at 0 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2404,7 +2404,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:RC0603FR-0710KL"
+		(symbol "User:RC0603FR-0710KL"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2436,7 +2436,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:R0603"
+			(property "Footprint" "User:R0603"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2447,7 +2447,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C98220.pdf"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2590,7 +2590,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:RELAY-TH_HF32F-X-HXXXX-XXX"
+			(property "Footprint" "User:RELAY-TH_HF32F-X-HXXXX-XXX"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2601,7 +2601,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C329304.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C329304.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3657,7 +3657,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SRC_rev_Q-eagle-import:+5V"
+		(symbol "User:+5V"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3775,7 +3775,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SRC_rev_Q-eagle-import:ATMEGA328_SMT"
+		(symbol "User:ATMEGA328_SMT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4485,7 +4485,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SRC_rev_Q-eagle-import:AVR_SPI_PRG_6PTH"
+		(symbol "User:AVR_SPI_PRG_6PTH"
 			(pin_names
 				(hide yes)
 			)
@@ -4982,7 +4982,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SRC_rev_Q-eagle-import:C-USC0603K"
+		(symbol "User:C-USC0603K"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5141,7 +5141,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SRC_rev_Q-eagle-import:PINHD-1X3"
+		(symbol "User:PINHD-1X3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5318,7 +5318,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SRC_rev_Q-eagle-import:RN4020"
+		(symbol "User:RN4020"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5349,7 +5349,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "EasyEDA:WIRELM-SMD_RN4020-V-RM"
+			(property "Footprint" "User:WIRELM-SMD_RN4020-V-RM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6075,7 +6075,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:B02B-XASK-1"
+		(symbol "User:B02B-XASK-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6103,7 +6103,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SHDR2W60P0X250_1X2_750X640X880P"
+			(property "Footprint" "User:SHDR2W60P0X250_1X2_750X640X880P"
 				(at 16.51 -94.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -6114,7 +6114,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 				(at 16.51 -194.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -6263,7 +6263,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:B03B-XASK-1"
+		(symbol "User:B03B-XASK-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6291,7 +6291,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:B03BXASK1"
+			(property "Footprint" "User:B03BXASK1"
 				(at 16.51 -94.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -6302,7 +6302,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/04/eXA-WB.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 				(at 16.51 -194.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -6469,7 +6469,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:B04B-XASK-1-A_LF__SN_"
+		(symbol "User:B04B-XASK-1-A_LF__SN_"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6500,7 +6500,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Samacsys:B04BXASK1ALFSN"
+			(property "Footprint" "User:B04BXASK1ALFSN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6697,7 +6697,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:MMBT4401LT1G"
+		(symbol "User:MMBT4401LT1G"
 			(pin_names
 				(hide yes)
 			)
@@ -6728,7 +6728,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SOT96P237X111-3N"
+			(property "Footprint" "User:SOT96P237X111-3N"
 				(at 13.97 -101.27 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -6739,7 +6739,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBT4401LT1-D.PDF"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/MMBT4401LT1-D.PDF"
 				(at 13.97 -201.27 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -6990,7 +6990,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:MMBT4401LT3G"
+		(symbol "User:MMBT4401LT3G"
 			(pin_names
 				(hide yes)
 			)
@@ -7021,7 +7021,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SOT96P237X111-3N"
+			(property "Footprint" "User:SOT96P237X111-3N"
 				(at 13.97 -101.27 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -7032,7 +7032,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBT4401LT1-D.PDF"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/MMBT4401LT1-D.PDF"
 				(at 13.97 -201.27 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -7283,7 +7283,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:MPXH6115AC6U"
+		(symbol "User:MPXH6115AC6U"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7311,7 +7311,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:MPXH6115AC6U"
+			(property "Footprint" "User:MPXH6115AC6U"
 				(at 26.67 -94.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -11782,7 +11782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 88.9 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11975,7 +11975,7 @@
 	)
 	(symbol
 		(lib_name "HF32F_005-HS3_1")
-		(lib_id "EasyEDA:HF32F_005-HS3")
+		(lib_id "User:HF32F_005-HS3")
 		(at 312.42 35.56 90)
 		(unit 1)
 		(body_style 1)
@@ -12006,7 +12006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:RELAY-TH_HF32F-X-HXXXX-XXX"
+		(property "Footprint" "User:RELAY-TH_HF32F-X-HXXXX-XXX"
 			(at 312.42 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12017,7 +12017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C329304.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C329304.pdf"
 			(at 312.42 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12593,7 +12593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 251.46 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12740,7 +12740,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 284.48 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13009,7 +13009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C727084.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C727084.pdf"
 			(at 88.9 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13301,7 +13301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:HF32F_005-HS3")
+		(lib_id "User:HF32F_005-HS3")
 		(at 198.12 35.56 90)
 		(unit 1)
 		(body_style 1)
@@ -13332,7 +13332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:RELAY-TH_HF32F-X-HXXXX-XXX"
+		(property "Footprint" "User:RELAY-TH_HF32F-X-HXXXX-XXX"
 			(at 198.12 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13343,7 +13343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C329304.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C329304.pdf"
 			(at 198.12 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13607,7 +13607,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C727084.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C727084.pdf"
 			(at 100.33 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14057,7 +14057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SRC_rev_Q-eagle-import:PINHD-1X3")
+		(lib_id "User:PINHD-1X3")
 		(at 21.59 152.4 0)
 		(mirror y)
 		(unit 1)
@@ -14275,7 +14275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SRC_rev_Q-eagle-import:RN4020")
+		(lib_id "User:RN4020")
 		(at 66.04 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -14307,7 +14307,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyEDA:WIRELM-SMD_RN4020-V-RM"
+		(property "Footprint" "User:WIRELM-SMD_RN4020-V-RM"
 			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14318,7 +14318,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/DataSheets/50002279E.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/50002279E.pdf"
 			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14922,7 +14922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:04611.25ER")
+		(lib_id "User:04611.25ER")
 		(at 289.56 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -14952,7 +14952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:FUSE-SMD_L10.1-W3.1"
+		(property "Footprint" "User:FUSE-SMD_L10.1-W3.1"
 			(at 294.64 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16625,7 +16625,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/ds16008.pdf"
 			(at 198.12 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16917,7 +16917,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:HF32F_005-HS3")
+		(lib_id "User:HF32F_005-HS3")
 		(at 133.35 35.56 90)
 		(unit 1)
 		(body_style 1)
@@ -16948,7 +16948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:RELAY-TH_HF32F-X-HXXXX-XXX"
+		(property "Footprint" "User:RELAY-TH_HF32F-X-HXXXX-XXX"
 			(at 133.35 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16959,7 +16959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C329304.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C329304.pdf"
 			(at 133.35 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17222,7 +17222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 170.18 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17526,7 +17526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:CSTNE12M0G550000R0")
+		(lib_id "User:CSTNE12M0G550000R0")
 		(at 127 125.73 270)
 		(unit 1)
 		(body_style 1)
@@ -17570,7 +17570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicResonatorCrystalUnit/SPEC_CSTNE12M0G550000R0_PDF_CERAMICRESONATORCRYSTALUNIT"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/SPEC_CSTNE12M0G550000R0_PDF_CERAMICRESONATORCRYSTALUNIT.pdf"
 			(at 113.03 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -17677,7 +17677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:MMBT4401LT3G")
+		(lib_id "User:MMBT4401LT3G")
 		(at 173.99 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -17709,7 +17709,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Samacsys:SOT96P237X111-3N"
+		(property "Footprint" "User:SOT96P237X111-3N"
 			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17896,7 +17896,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 52.07 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18166,7 +18166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SRC_rev_Q-eagle-import:C-USC0603K")
+		(lib_id "User:C-USC0603K")
 		(at 99.06 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -18401,7 +18401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0603FR-0710KL")
+		(lib_id "User:RC0603FR-0710KL")
 		(at 29.21 58.42 180)
 		(unit 1)
 		(body_style 1)
@@ -18444,7 +18444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 29.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -18559,7 +18559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rdParty:AQG22205")
+		(lib_id "User:AQG22205")
 		(at 261.62 35.56 0)
 		(mirror x)
 		(unit 1)
@@ -18591,7 +18591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:RELAYS-TH_AQG22205"
+		(property "Footprint" "User:RELAYS-TH_AQG22205"
 			(at 261.62 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -18789,7 +18789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:MMBT4401LT3G")
+		(lib_id "User:MMBT4401LT3G")
 		(at 288.29 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -18822,7 +18822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SOT96P237X111-3N"
+		(property "Footprint" "User:SOT96P237X111-3N"
 			(at 288.29 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -19045,7 +19045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:B02B-XASK-1")
+		(lib_id "User:B02B-XASK-1")
 		(at 218.44 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -19088,7 +19088,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 234.95 33.0199 0)
 			(hide yes)
 			(show_name no)
@@ -19305,7 +19305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C492420.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C492420.pdf"
 			(at 311.15 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -20084,7 +20084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/ds16008.pdf"
 			(at 133.35 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20341,7 +20341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/ds16008.pdf"
 			(at 312.42 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20599,7 +20599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 100.33 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -21038,7 +21038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:B02B-XASK-1")
+		(lib_id "User:B02B-XASK-1")
 		(at 307.34 132.08 0)
 		(mirror x)
 		(unit 1)
@@ -21082,7 +21082,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 323.85 132.0801 0)
 			(hide yes)
 			(show_name no)
@@ -21546,7 +21546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 254 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -21869,7 +21869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 228.6 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -22105,7 +22105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:MMBT4401LT3G")
+		(lib_id "User:MMBT4401LT3G")
 		(at 109.22 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -22138,7 +22138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SOT96P237X111-3N"
+		(property "Footprint" "User:SOT96P237X111-3N"
 			(at 109.22 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -22327,7 +22327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 44.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22596,7 +22596,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:MMBT4401LT1G")
+		(lib_id "User:MMBT4401LT1G")
 		(at 232.41 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -22629,7 +22629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SOT96P237X111-3N"
+		(property "Footprint" "User:SOT96P237X111-3N"
 			(at 232.41 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -23042,7 +23042,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:B02B-XASK-1")
+		(lib_id "User:B02B-XASK-1")
 		(at 157.48 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -23085,7 +23085,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 173.99 33.0199 0)
 			(hide yes)
 			(show_name no)
@@ -23812,7 +23812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SRC_rev_Q-eagle-import:ATMEGA328_SMT")
+		(lib_id "User:ATMEGA328_SMT")
 		(at 167.64 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -23855,7 +23855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/40001907A.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/40001907A.pdf"
 			(at 167.64 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -24381,7 +24381,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 233.68 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -24606,7 +24606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:B03B-XASK-1")
+		(lib_id "User:B03B-XASK-1")
 		(at 248.92 99.06 0)
 		(mirror x)
 		(unit 1)
@@ -24651,7 +24651,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 265.43 97.7901 0)
 			(hide yes)
 			(show_name no)
@@ -24774,7 +24774,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:AP2120N-3.3TRG1")
+		(lib_id "User:AP2120N-3.3TRG1")
 		(at 39.37 187.96 90)
 		(unit 1)
 		(body_style 1)
@@ -24816,7 +24816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/di620600s1.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/di620600s1.pdf"
 			(at 39.37 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -24934,7 +24934,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SRC_rev_Q-eagle-import:+5V")
+		(lib_id "User:+5V")
 		(at 21.59 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -25212,7 +25212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 100.33 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -25482,7 +25482,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SRC_rev_Q-eagle-import:AVR_SPI_PRG_6PTH")
+		(lib_id "User:AVR_SPI_PRG_6PTH")
 		(at 214.63 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -25525,7 +25525,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C492420.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C492420.pdf"
 			(at 214.63 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -25773,7 +25773,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C107092.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/LCSC_C107092.pdf"
 			(at 93.98 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -26187,7 +26187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:MPXH6115AC6U")
+		(lib_id "User:MPXH6115AC6U")
 		(at 44.45 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -26218,7 +26218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:MPXH6115AC6U"
+		(property "Footprint" "User:MPXH6115AC6U"
 			(at 59.69 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -26494,7 +26494,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -26806,7 +26806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -27750,7 +27750,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:B02B-XASK-1")
+		(lib_id "User:B02B-XASK-1")
 		(at 36.83 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -27793,7 +27793,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 20.32 119.3801 0)
 			(hide yes)
 			(show_name no)
@@ -28405,7 +28405,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 105.41 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -28708,7 +28708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:B04B-XASK-1-A_LF__SN_")
+		(lib_id "User:B04B-XASK-1-A_LF__SN_")
 		(at 266.7 147.32 0)
 		(mirror x)
 		(unit 1)
@@ -28751,7 +28751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/eXA-WB-new.pdf"
 			(at 266.7 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -29144,7 +29144,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:MMBT4401LT3G")
+		(lib_id "User:MMBT4401LT3G")
 		(at 237.49 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -29177,7 +29177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SOT96P237X111-3N"
+		(property "Footprint" "User:SOT96P237X111-3N"
 			(at 237.49 53.34 0)
 			(hide yes)
 			(show_name no)
