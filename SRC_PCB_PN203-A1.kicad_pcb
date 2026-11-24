@@ -1210,7 +1210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://MMBT4401-D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/MMBT4401-D.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3208,7 +3208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://MMBT4401-D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/MMBT4401-D.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5042,7 +5042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6202,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B04B-XASK-1"
+		(property "Manufacturer_Part_Number" "B03B-XASK-1"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6390,6 +6390,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6cd914c-83ec-4c16-9721-945d6364c707")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Substitute_Allowed" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67e59a28-32f8-4507-a691-86d73ba969c0")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6709,7 +6722,7 @@
 			)
 		)
 	)
-	(footprint "User:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+	(footprint "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3f7091ba-e634-49c6-b31c-b11353750e19")
 		(at 123.567714 38.7395 -90)
@@ -6739,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6752,7 +6765,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole 02 position 0.098\" (2.50mm)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6783,7 +6796,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0bb2025-613e-4bfe-87c5-d65ab1b59324")
+			(uuid "3cdefbba-9849-466a-a709-ddbcc907e125")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6796,7 +6809,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "466fbe2b-185b-4b77-870b-1ce2f01351d9")
+			(uuid "2b291da6-bea4-4e6a-b6b5-6c36ae9f9009")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6809,7 +6822,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1512ff0a-98e2-41ff-94a0-198bfa898826")
+			(uuid "7022960a-1be7-4e63-8473-1c93e50d6ebb")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6822,7 +6835,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51ba15b8-9b5e-45b6-9602-bad48d3126b7")
+			(uuid "13364ba4-c281-42fa-ac13-cc95f100b802")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6835,7 +6848,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9de2900b-2df4-41c1-b4ca-4bc37e25fe8c")
+			(uuid "2be3c45e-63c6-4d81-b1bb-437cf1d94c6d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6848,7 +6861,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dc0f104-131e-42d4-a917-4bbbe751821d")
+			(uuid "1b6b618a-9223-4f46-8baf-4cdf2102373e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6861,7 +6874,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6593d240-fe32-4d60-a04a-485e0a9cf262")
+			(uuid "d0f54660-60dc-418a-a4c8-5b14997b982e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6874,7 +6887,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16192786-967e-4179-9d9f-742935bb761c")
+			(uuid "9770f325-2658-4365-a8b1-fdc604d6a892")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6887,7 +6900,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4c5ca08-264d-4e5e-a473-d061e9b02071")
+			(uuid "dd3f71a4-74e5-4664-ba00-575cebfedfb8")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6900,7 +6913,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1dfef424-6e47-4f65-8c77-33b3ffb4faca")
+			(uuid "1c98a4b1-8dcb-495b-ab7c-5f9b7f3b2798")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6913,7 +6926,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf8ba0f0-e849-491c-93a3-896997f6ab6c")
+			(uuid "28daa4a7-e9ca-4f64-80f7-adbf114fa043")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6926,7 +6939,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65319b15-27ed-47bf-945d-5697c0160207")
+			(uuid "de5e65a1-7ad4-4c79-9041-cce891da4b7e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6939,7 +6952,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53adafc5-21cb-45f0-b5f1-18478efa0822")
+			(uuid "a95f33d7-7c2f-4723-908d-ee61cef469f2")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6952,7 +6965,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e11ad73-c15b-4220-a17e-b86d7f5e2d6c")
+			(uuid "e54fb15f-32fa-4ea0-a966-a8ab8e9f8219")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6965,7 +6978,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1bcc1ad-db2e-4551-a98c-6b1e9f200b21")
+			(uuid "4b4d716d-109a-4d87-8ccc-5db15572d795")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6978,7 +6991,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "430a5d92-ce54-46ef-9125-bd3e9ef948e4")
+			(uuid "7c713fe3-cc8b-4621-869e-e687e4108f01")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6991,7 +7004,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "efcf76c6-2d88-40aa-9ac3-a601da7cee16")
+			(uuid "05d23768-6afc-436e-9683-38d8c44fffb6")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7004,7 +7017,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4e87fab-f159-42c3-bb00-6cb57b648cbf")
+			(uuid "e9126604-68c5-4f1b-acdd-8ebdd05c7742")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7017,7 +7030,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6c2c95e-dae3-4b18-854a-07623d4ae866")
+			(uuid "0850912f-6504-4a98-802f-d04b40cfd798")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7028,6 +7041,12 @@
 		(path "/d877b513-4f63-47b1-acc0-4586202a91eb")
 		(sheetname "/")
 		(sheetfile "SRC_PCB_PN203-A1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7308,15 +7327,15 @@
 			(uuid "6fa98ab1-c836-4e80-8752-886d2ef0e82a")
 		)
 		(embedded_fonts no)
-		(model "C:/repos/SRC_PCB/ComponentData/B02B_XASK_1/B02B-XASK-1-W.STEP"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical.step"
 			(offset
-				(xyz 1.25 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -180)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -8017,7 +8036,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://MMBT4401-D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/MMBT4401-D.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8893,7 +8912,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://ds_aqg_en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/ds_aqg_en.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9402,14 +9421,14 @@
 			)
 		)
 	)
-	(footprint "User:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+	(footprint "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "524ef25c-6763-4b9d-b2b7-6ea70cdd2596")
 		(at 134.235714 58.0435 -90)
 		(descr "JST XA series connector, B02B-XASK-1 (https://www.jst.com/wp-content/uploads/2021/01/eXA1.pdf)")
 		(tags "connector JST XA vertical")
 		(property "Reference" "X2"
-			(at 2.1037 4.289314 90)
+			(at 1.25 -4.4 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "993e41e8-5d87-4010-86e1-7a7e7b27c24b")
@@ -9476,7 +9495,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8059025-e778-41b7-8c87-dcab3e6bb5e6")
+			(uuid "95945f76-2fe5-4fe0-9be3-a428705781df")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9489,7 +9508,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7000c1d7-0676-4a5a-8fe8-1ead20008195")
+			(uuid "74e8294a-5078-4358-9912-18f8812051d4")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9502,7 +9521,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7a83252-40c0-4b2e-80a1-d3f4fa9f37fa")
+			(uuid "deb508f1-1345-4063-bd46-3ef85b36fa19")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9515,7 +9534,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "005cd453-94e1-44e2-9641-ded9c177870d")
+			(uuid "36805ab6-ff81-4b97-9c22-f3ed937f4f70")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9528,7 +9547,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "240c8f68-8997-49b7-a74b-2a3095503b3c")
+			(uuid "75ea201b-f699-4126-b40d-31aa447c7c54")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9541,7 +9560,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b643f0ee-a385-47c5-84dd-2b7de59a0f68")
+			(uuid "03ba1763-1e4d-4d55-9bb4-e8448a08de09")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9554,7 +9573,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04fd2574-a251-45bf-99fd-b680434eb738")
+			(uuid "a7a97d27-5784-4601-b31e-8c09e39df00b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9567,7 +9586,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98ad9ea7-f8ed-4a7e-a7ba-2c1099e13996")
+			(uuid "6a721961-1993-45aa-955b-7412a33d52cb")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9580,7 +9599,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38c1f8e8-4231-4f8f-9d30-841c5ca7ded4")
+			(uuid "3d3a2a94-2860-4dde-86c0-7098d55ce2b9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9593,7 +9612,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d55d23c-4138-477f-9af0-8039a1b49644")
+			(uuid "926a6b52-3637-4611-9bf7-e890bb415c3a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9606,7 +9625,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1242877-4d45-4f51-9ce8-93b8226a7048")
+			(uuid "f25c1a25-226c-4e1e-98d7-226533d01228")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9619,7 +9638,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c5dfa3e-a854-4bba-b06f-7dbba7f48272")
+			(uuid "4a23a784-64b4-494b-8c64-5fe60527159a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9632,7 +9651,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73ae426c-f594-4652-b511-ee1184937387")
+			(uuid "5fe59b56-3332-4e56-ae3b-9686309bbc90")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9645,7 +9664,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e26b63c-b594-49ee-ae7c-1610866e6974")
+			(uuid "d3b3cb5a-c0ad-4a3a-b171-23e9635d723a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9658,7 +9677,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aaf7b5a6-1adc-4bf2-a3ce-b6658d0da9ea")
+			(uuid "09f9bebe-0990-44da-9bc0-40045a14c687")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9671,7 +9690,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da8640a7-38a9-4a7b-9c72-c7d91f3284e2")
+			(uuid "cc93818e-81ba-42c4-ab6a-cf734c64f78b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9684,7 +9703,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "063de816-600b-4a26-a0c3-794da64b281c")
+			(uuid "31c9ca0a-ed36-4302-96b7-21b8b2c24d6f")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9697,7 +9716,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6ea3759-69ac-43a1-8652-7709b5844954")
+			(uuid "916defbc-aeeb-462a-b648-a0b0543019b6")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9710,7 +9729,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97ca7114-2061-4465-981d-63e9c546f76e")
+			(uuid "d08dfba9-e479-4b75-b8ac-e24763681f39")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9721,6 +9740,12 @@
 		(path "/9490ae39-ad89-45f0-b94d-d72ac361dd8b")
 		(sheetname "/")
 		(sheetfile "SRC_PCB_PN203-A1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10001,15 +10026,15 @@
 			(uuid "535b425a-0ca5-4946-acf0-2ba0a8e068ad")
 		)
 		(embedded_fonts no)
-		(model "C:/repos/SRC_PCB/ComponentData/B02B_XASK_1/B02B-XASK-1-W.STEP"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical.step"
 			(offset
-				(xyz 1.25 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -180)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -10043,7 +10068,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14959,7 +14984,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15875,7 +15900,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C492420.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15886,7 +15911,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER 6POS 2.54mm DUAL ROW TH"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16261,7 +16286,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/bdf537d6-15d6-48ac-8fa7-edec0e19a91b")
 		(sheetname "/")
 		(sheetfile "SRC_PCB_PN203-A1.kicad_sch")
@@ -16433,7 +16457,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/MISO")
-			(pinfunction "Pin_1_1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "cdc492ec-f01f-4240-92cc-e18d8982f628")
 		)
@@ -16444,7 +16468,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
-			(pinfunction "Pin_2_2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "6b68e52d-c61c-45cc-b73a-2de5b420d677")
 		)
@@ -16455,7 +16479,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/SCK")
-			(pinfunction "Pin_3_3")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "6dd32998-e166-4e47-8935-9e47852af04f")
 		)
@@ -16466,7 +16490,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/MOSI")
-			(pinfunction "Pin_4_4")
+			(pinfunction "4_4")
 			(pintype "passive")
 			(uuid "8bdea871-0bf2-4e1c-b30e-a9cbea0bac5d")
 		)
@@ -16477,7 +16501,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/RESET")
-			(pinfunction "Pin_5_5")
+			(pinfunction "5_5")
 			(pintype "passive")
 			(uuid "c14c46aa-f151-4b91-919e-14164bfd35de")
 		)
@@ -16488,7 +16512,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_6_6")
+			(pinfunction "6_6")
 			(pintype "passive")
 			(uuid "acf618d3-e27b-401b-8897-739b152dc716")
 		)
@@ -16650,7 +16674,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17124,7 +17148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19678,7 +19702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20754,7 +20778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22982,7 +23006,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Littelfuse-Fuse-461-Datasheet.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Littelfuse-Fuse-461-Datasheet.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25079,7 +25103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25554,7 +25578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://MMBT4401-D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/MMBT4401-D.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26034,7 +26058,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CERAMIC RES 12.0000MHZ 33PF SMD"
+		(property "Manufacturer_Part_Number" "CSTNE12M0G550000R0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26079,6 +26103,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "54e36719-4700-4e8c-868c-b4056cea490a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Substitute_Allowed" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9133e1d3-6ede-4f91-8dc8-178b2df933c4")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27585,7 +27622,7 @@
 			)
 		)
 	)
-	(footprint "User:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+	(footprint "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cbe7b8c3-fbdc-446e-ac32-1b5460bb6c87")
 		(at 134.235714 48.2645 -90)
@@ -27615,7 +27652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27628,7 +27665,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole 02 position 0.098\" (2.50mm)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27659,7 +27696,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01b0a710-1765-4c5d-b5df-a39dc6ae5af8")
+			(uuid "100a5eb3-8bf3-472b-a795-6f1b265e56da")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27672,7 +27709,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e163a782-037a-47b1-ba00-d2e5da9a4406")
+			(uuid "5daef326-4795-4582-ac26-e50238eaa973")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27685,7 +27722,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c43923cc-87ce-445b-a29a-30a1b0f961f3")
+			(uuid "336cecdb-68bb-4834-b219-1d148d5798fa")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27698,7 +27735,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a5383d5-f4aa-44be-9f34-d933288c9c37")
+			(uuid "c73a37a5-bbf3-424e-a780-e8358d69ccbb")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27711,7 +27748,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe0a5083-8120-40cb-8fa3-b1ecda147a84")
+			(uuid "78770f78-b903-43f1-819b-946b378893c8")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27724,7 +27761,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b4f65b5-184e-44d9-a47d-4868c0a6e856")
+			(uuid "a2458ca8-4fc0-4961-bf85-dfcab1b00409")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27737,7 +27774,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "321d6d4e-da14-4dd0-8d7f-331c053f39bb")
+			(uuid "63a5c919-6583-4101-8bc3-c4ef6a6b310d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27750,7 +27787,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6d24c56-c523-4771-b608-2b9a98587409")
+			(uuid "f564e5b4-aa67-4fc7-a9c2-93239b3a31aa")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27763,7 +27800,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e1da57d-2c31-434a-8ec8-e1bf18972e33")
+			(uuid "03ec408c-9a3e-4105-91c5-d4f64c0e159a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27776,7 +27813,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6357f977-378a-4d94-892b-e0009bafe75c")
+			(uuid "c78efce6-6029-45ba-823c-bccf88fe7660")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27789,7 +27826,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a58ad99-5e47-4539-b6cb-7f3657aad9af")
+			(uuid "56c0969c-4c92-4086-aca6-86f7344d9fa5")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27802,7 +27839,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "840fc4b8-63ba-4d97-9495-4473988d4c93")
+			(uuid "c843a73d-9693-49b6-a75c-d74b34d8fb1e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27813,6 +27850,12 @@
 		(path "/696bfeb9-33da-4e64-b560-1379a2e20b48")
 		(sheetname "/")
 		(sheetfile "SRC_PCB_PN203-A1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28093,15 +28136,15 @@
 			(uuid "ea39c14d-7d9c-47f7-8fa0-1e19c37f8b68")
 		)
 		(embedded_fonts no)
-		(model "C:/repos/SRC_PCB/ComponentData/B02B_XASK_1/B02B-XASK-1-W.STEP"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical.step"
 			(offset
-				(xyz 1.25 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -180)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -29227,7 +29270,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://MMBT4401-D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/MMBT4401-D.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29616,7 +29659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31350,7 +31393,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://Samsung_Electro-Mechanics.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/Samsung_Electro-Mechanics.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
