@@ -1,0 +1,16 @@
+Model / Series: 10D
+Gast Part Number: 10D1126-401-7049B
+Power Rating, Hp Kw: 1/125 0.1
+Free Air Flow Rate, CFM m3/h: 0.25 0.42
+Maximum Pressure, PSI Bar: 15 1.03 (untested with custom mod)
+Maximum Vacuum, inHg mbar: 18(@5000ft), ? (with custom mod)
+Thermal Protection: No
+Operating Voltage: 12V
+Winding Resistance: 2.8-4.0 Ohm
+
+IN APPLICATION
+Low running current: ~800mA
+Peak running current: 1.2-1.5A
+Run time: <1.5 min
+Start current: <4A (pump start is staggered)
+

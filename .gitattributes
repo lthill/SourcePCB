@@ -1,4 +1,14 @@
-*.stp filter=lfs diff=lfs merge=lfs -text
+# Large binaries -> Git LFS (lower + upper case)
+*.stp  filter=lfs diff=lfs merge=lfs -text
+*.STP  filter=lfs diff=lfs merge=lfs -text
 *.step filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
+*.STEP filter=lfs diff=lfs merge=lfs -text
+*.pdf  filter=lfs diff=lfs merge=lfs -text
+*.PDF  filter=lfs diff=lfs merge=lfs -text
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.PNG  filter=lfs diff=lfs merge=lfs -text
+
+# KiCad text files: always LF, the same as KiCad writes them (stops the CRLF warnings)
+*.kicad_*      text eol=lf
+fp-lib-table   text eol=lf
+sym-lib-table  text eol=lf
