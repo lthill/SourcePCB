@@ -6807,7 +6807,7 @@
 			(uuid "9e16b98e-ae21-494d-a366-f2fcac650a6c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/LeeT/KiCad/EasyEDA.3dshapes/CONN-TH_B03B-XASK-1.step"
+		(model "${KIPRJMOD}/3DModels/CONN-TH_B03B-XASK-1.step"
 			(offset
 				(xyz 2.5 2.75 2.5)
 			)
@@ -7424,15 +7424,15 @@
 			(uuid "6fa98ab1-c836-4e80-8752-886d2ef0e82a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical.step"
+		(model "${KIPRJMOD}/3DModels/B02B-XASK-1-W.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -7616,17 +7616,6 @@
 			(uuid "ec8527bd-3419-4e5f-b590-862ce778a0d7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
@@ -10123,15 +10112,15 @@
 			(uuid "535b425a-0ca5-4946-acf0-2ba0a8e068ad")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical.step"
+		(model "${KIPRJMOD}/3DModels/B02B-XASK-1-W.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -27101,7 +27090,7 @@
 			(uuid "cfa2de7c-76c3-43f1-8e65-e4de268fdf80")
 		)
 		(embedded_fonts no)
-		(model "C:/repos/SRC_PCB/ComponentData/B02B_XASK_1/B02B-XASK-1-W.STEP"
+		(model "${KIPRJMOD}/3DModels/B02B-XASK-1-W.STEP"
 			(offset
 				(xyz 1.25 0 0)
 			)
@@ -27707,17 +27696,6 @@
 			(uuid "c8f57251-e635-452f-9bad-3156262a3181")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
@@ -28233,15 +28211,15 @@
 			(uuid "ea39c14d-7d9c-47f7-8fa0-1e19c37f8b68")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical.step"
+		(model "${KIPRJMOD}/3DModels/B02B-XASK-1-W.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -180)
 			)
 		)
 	)

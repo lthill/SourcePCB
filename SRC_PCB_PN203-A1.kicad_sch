@@ -3814,7 +3814,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "file://C:\\repos\\SRC_PCB\\ComponentData\\40001907A.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/40001907A.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6511,7 +6511,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "file://C:\\repos\\SRC_PCB\\ComponentData\\JST_B2B_XH_2_LF_SN_eXH.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Datasheets/JST_B2B_XH_2_LF_SN_eXH.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)

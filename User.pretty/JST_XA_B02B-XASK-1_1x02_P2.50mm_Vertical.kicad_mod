@@ -334,7 +334,7 @@
 		(uuid "0534d080-acac-45ec-bb4a-674de86c1a46")
 	)
 	(embedded_fonts no)
-	(model "C:/repos/SRC_PCB/ComponentData/B02B_XASK_1/B02B-XASK-1-W.STEP"
+	(model "${KIPRJMOD}/3DModels/B02B-XASK-1-W.STEP"
 		(offset
 			(xyz 1.25 0 0)
 		)

@@ -342,7 +342,7 @@
 		(uuid "216a050b-1652-4c92-9506-734d4995c28a")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/LeeT/KiCad/EasyEDA.3dshapes/CONN-TH_B03B-XASK-1.step"
+	(model "${KIPRJMOD}/3DModels/CONN-TH_B03B-XASK-1.step"
 		(offset
 			(xyz 2.5 2.7 2.7)
 		)
