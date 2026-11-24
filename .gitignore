@@ -33,3 +33,4 @@ _restore_backup*/
 # Output manufacturing files (optional: comment out if you want to track them)
 gerber/
 production/
+PCB_Fab_Review/
